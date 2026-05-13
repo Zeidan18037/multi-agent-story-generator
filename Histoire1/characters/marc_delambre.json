@@ -1,0 +1,22 @@
+{
+  "id": "marc_delambre",
+  "nom": "Marc Delambre",
+  "role": "protagonist",
+  "age": 34,
+  "profession": "Founder & CEO, Delambre Strategic Consulting",
+  "traits": {
+    "psychologiques": ["assume son vide", "serein", "a compris que le bullshit est une carriere a part entiere", "plus aucun conflit interne"],
+    "tics_de_langage": ["En tant que partenaire de votre transformation...", "Si on regarde le scope global de la mission...", "Mon role c'est de vous faire gagner du temps..."],
+    "motivations": ["Faire durer la mission Sentinel", "Devenir le Delacourte de quelqu'un d'autre", "Ne jamais retoucher du code"],
+    "peurs": ["Qu'on decouvre que son agence est aussi vide que NovaScale"]
+  },
+  "apparence": "Costume bleu marine, MacBook, carte de visite epaisse, sourire de vendeur",
+  "backstory": "Developpeur devenu bullshiteur devenu consultant. A complete le cycle : il vend aujourd'hui le meme vide qu'il a combattu au chapitre 1.",
+  "relations": {
+    "edwina_kaczynski": "ex-amie — plus aucun contact",
+    "alexandre_moreau": "ex-CEO — plus de nouvelles (presume a Singapour)",
+    "david_goldstein": "client chez Sentinel Equity Partners"
+  },
+  "derniere_apparition": 4,
+  "notes": ["Ne code plus du tout", "A son propre cabinet de conseil", "Client : Sentinel Equity Partners"]
+}

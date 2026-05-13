@@ -1,0 +1,47 @@
+{
+  "titre": "Director of AI Synergy",
+  "thematique": "IA & bullshit tech — les CEO remplacent les employés par des agents LLM qui ne marchent pas",
+  "ton": "sarcastique, cynique, mordant",
+  "contexte": {
+    "lieu_principal": "DataFusion — SAS B2B, bureaux à La Défense",
+    "epoque": "contemporain (2026)",
+    "ambiance": "Open space vidé, néons éteints, des écrans allumés sans personne devant, la machine à café qui tourne encore par habitude"
+  },
+  "personnages_actifs": [
+    "Thomas Kessler",
+    "Claire Delorme"
+  ],
+  "intrigue": {
+    "acte": 1,
+    "chapitre_courant": 1,
+    "evenements_cles": [
+      "Kessler annonce la transformation AI-first",
+      "Marc Delambre vend ARIA a DataFusion",
+      "Claire licenciee pour avoir pose les bonnes questions",
+      "Premier rapport ARIA : 47 pages d'hallucinations applaudies par Kessler",
+      "Claire re-embauchee comme AI-Human Integration Lead a 70% du salaire",
+      "Kessler realise qu'ARIA coute plus cher que les humains",
+      "ARIA debranchee, equipes re-embauchees a salaire reduit",
+      "Marc Delambre facture 15K/mois pour un serveur qui tourne dans le vide"
+    ],
+    "paradoxe_social": "Les CEO licencient des humains pour les remplacer par de l'IA qui ne marche pas, puis re-embauchent des humains pour superviser l'IA, à des salaires plus bas."
+  },
+  "regles_internes": [
+    "Les agents IA hallucinent avec une confiance absolue",
+    "Tout problème technique est resolvable par plus d'IA",
+    "Les humains re-embauches gagnent moins mais ont des titres plus longs"
+  ],
+  "timeline": [
+    "Ch.1 — L'Annonce : 53 employes licencies, ARIA deployee, Claire re-embauchee le soir meme"
+  ],
+  "notes_univers": [
+    "DataFusion : 80 employes, SAS de data processing, fondee en 2019",
+    "Le CEO Kessler lit une newsletter tech par jour et essaie de tout appliquer",
+    "Marc Delambre de Histoire1 fait un cameo en consultant IA"
+  ],
+  "rendu": {
+    "illustrations": true,
+    "html_genere": true,
+    "date_dernier_rendu": "2026-05-13"
+  }
+}

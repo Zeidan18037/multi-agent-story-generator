@@ -1,0 +1,49 @@
+{
+  "titre": "Chief Bullshit Officer",
+  "thematique": "Culture startup / corporate satire",
+  "ton": "sarcastique, cynique, mordant",
+  "contexte": {
+    "lieu_principal": "NovaScale / Delambre Strategic Consulting",
+    "epoque": "contemporain (2025-2026)",
+    "ambiance": "Open space vidé de ses développeurs, néon DISRUPT éteint, Marc dans un WeWork"
+  },
+  "personnages_actifs": ["Marc Delambre", "David Goldstein", "Alexandre Moreau"],
+  "intrigue": {
+    "acte": 3,
+    "chapitre_courant": 4,
+    "evenements_cles": [
+      "Marc découvre que le bullshit paye au Strategic Project Review",
+      "Marc réinvente son projet comme IA-Native pour survivre",
+      "Edwina assiste impuissante à la métamorphose",
+      "Marc présente son keynote bullshit à l'All-Hands — triomphe",
+      "Edwina confronte Marc — rupture amicale",
+      "Rachat par Sentinel — due diligence",
+      "Marc ne peut pas livrer le NovaVerse",
+      "Marc devient consultant — le bullshit entre dans sa phase infinie"
+    ],
+    "paradoxe_social": "Plus ton travail est vide et bien emballé, plus tu es récompensé. Plus tu produces de la valeur réelle, plus tu es invisible et remplaçable."
+  },
+  "regles_internes": [
+    "Les vrais développeurs sont systématiquement invisibilisés",
+    "Les bullshiteurs montent en grade en proportion inverse de leur utilité",
+    "Le jargon corporate masque l'absence totale de substance",
+    "Le bullshit ne s'arrête jamais — il change juste de niveau"
+  ],
+  "timeline": [
+    "Ch.1 — Séminaire Vision 2026 : Marc comprend la règle du jeu",
+    "Ch.2 — Strategic Project Review : Marc joue le jeu pour la première fois",
+    "Ch.3 — L'All-Hands : Marc est devenu le système. Edwina rompt.",
+    "Ch.4 — Due Diligence : Le bullshit rencontre la réalité. Marc devient consultant."
+  ],
+  "notes_univers": [
+    "NovaScale rachet\u00e9e par Sentinel Equity Partners (fonds am\u00e9ricain)",
+    "Marc a fond\u00e9 Delambre Strategic Consulting \u2014 consultant solo",
+    "Edwina est rest\u00e9e chez NovaScale (post-acquisition)",
+    "Moreau a encaiss\u00e9 \u2014 probablement \u00e0 Singapour"
+  ],
+  "rendu": {
+    "illustrations": false,
+    "html_genere": false,
+    "date_dernier_rendu": null
+  }
+}

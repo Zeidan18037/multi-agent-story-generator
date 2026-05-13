@@ -1,0 +1,18 @@
+{
+  "id": "",
+  "nom": "",
+  "role": "protagonist | antagonist | sidekick | mentor",
+  "age": null,
+  "profession": "",
+  "traits": {
+    "psychologiques": [],
+    "tics_de_langage": [],
+    "motivations": [],
+    "peurs": []
+  },
+  "apparence": "",
+  "backstory": "",
+  "relations": {},
+  "derniere_apparition": null,
+  "notes": []
+}

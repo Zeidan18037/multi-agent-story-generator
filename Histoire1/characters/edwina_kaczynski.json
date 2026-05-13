@@ -1,0 +1,20 @@
+{
+  "id": "edwina_kaczynski",
+  "nom": "Edwina Kaczyński",
+  "role": "sidekick",
+  "age": 29,
+  "profession": "Data Engineer chez NovaScale",
+  "traits": {
+    "psychologiques": ["pragmatique", "loyale", "franc-parler", "allergique au bullshit"],
+    "tics_de_langage": ["Sérieux ?", "Tu déconnes", "OK mais concrètement ?"],
+    "motivations": ["Faire du bon travail", "Protéger Marc de lui-même"],
+    "peurs": ["Devenir aigrie", "Perdre Marc dans le système"]
+  },
+  "apparence": "Cheveux courts peroxydés, piercing à l'arcade, toujours un hoodie du FOSDEM, carnet moleskine rempli de croquis techniques",
+  "backstory": "A quitté une grosse boîte après un burn-out. Croyait que la start-up serait mieux. A découvert que c'était pareil mais avec du free lunch.",
+  "relations": {
+    "marc_delambre": "collègue et ami — le seul développeur qu'elle respecte"
+  },
+  "derniere_apparition": null,
+  "notes": []
+}

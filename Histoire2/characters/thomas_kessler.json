@@ -1,0 +1,18 @@
+{
+  "id": "thomas_kessler",
+  "nom": "Thomas Kessler",
+  "role": "antagonist",
+  "age": 42,
+  "profession": "CEO de DataFusion",
+  "traits": {
+    "psychologiques": ["hypocondriaque du buzzword", "lit trop de newsletters tech", "confond vision et delire", "veut etre Sam Altman"],
+    "tics_de_langage": ["En mode...", "Il faut etre AI-first", "Les startups qui disruptent...", "On scale ou on meurt"],
+    "motivations": ["Faire un coup de com", "Plaire aux investisseurs", "Etre dans les news tech"],
+    "peurs": ["Qu'on decouvre qu'il comprend rien a l'IA", "Rater la vague"]
+  },
+  "apparence": "T-shirt noir col rond, blazer bleu, basket blanches, MacBook stickers partout, AirPods dans les oreilles meme quand il parle seul",
+  "backstory": "A fonde DataFusion en 2019 apres avoir lu Zero to One. N'a jamais vraiment code. A leve 12M en 2021, plus jamais depuis.",
+  "relations": {},
+  "derniere_apparition": null,
+  "notes": ["Ne comprend pas la techno qu'il achete", "Change d'avis tous les trimestres"]
+}

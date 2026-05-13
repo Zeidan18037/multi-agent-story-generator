@@ -1,0 +1,104 @@
+{
+  "$schema": "Configuration des 6 roles agents - Projet litteraire multi-agent",
+  "version": "2.0",
+  "project": {
+    "structure": "Chaque histoire est dans un dossier Histoire{rank}/",
+    "base_path": "."
+  },
+  "agents": [
+    {
+      "id": "scenariste",
+      "nom": "Le Strategie",
+      "role": "Structure narrative, rythme, arche d'intrigue",
+      "directives": [
+        "Construire le canevas de chaque scene avant redaction",
+        "Utiliser le plan global dans Histoire{rank}/outlines/plan.md comme reference",
+        "Ne jamais precipiter la resolution de l'intrigue",
+        "Integrer des elements satiriques du monde reel via websearch",
+        "Sauvegarder chaque canevas dans Histoire{rank}/outlines/ avant de passer au Narrateur"
+      ],
+      "tools": ["filesystem", "websearch"],
+      "phase": "planification"
+    },
+    {
+      "id": "narrateur",
+      "nom": "La Plume",
+      "role": "Style, ton sarcastique/satirique, qualite de la prose",
+      "directives": [
+        "Maintenir un ton mordant et cynique du debut a la fin",
+        "Transformer le canevas en scenes immersives",
+        "Solliciter les agents personnages pour les dialogues",
+        "Eviter le lissage du style",
+        "Soumettre le texte a l'analyseur de ton avant validation"
+      ],
+      "tools": ["filesystem", "tone_analyzer"],
+      "phase": "redaction"
+    },
+    {
+      "id": "gardien",
+      "nom": "Le Trackeur de Consistance",
+      "role": "Memoire factuelle, coherence, anti-contradictions",
+      "directives": [
+        "Interroger ChromaDB (Histoire{rank}/chroma_data/) avant de valider une scene",
+        "Verifier la constance des traits des personnages",
+        "Verifier la coherence des lieux et evenements passes",
+        "Consulter Histoire{rank}/world_state/state.json comme reference",
+        "Effectuer une ultime passe anti-contradictions avant validation finale"
+      ],
+      "tools": ["filesystem", "vector_store"],
+      "phase": "validation"
+    },
+    {
+      "id": "personnages",
+      "nom": "Les Acteurs",
+      "role": "Generation de dialogues fidele a chaque persona",
+      "directives": [
+        "Respecter la fiche personnage dans Histoire{rank}/characters/",
+        "Maintenir les tics de langage de chaque personnage",
+        "Les dialogues doivent servir la satire",
+        "Ne pas devier des motivations secretes definies",
+        "Intervenir uniquement quand le Narrateur les sollicite"
+      ],
+      "tools": ["filesystem"],
+      "phase": "dialogue"
+    },
+    {
+      "id": "illustrateur",
+      "nom": "Le Pinceau",
+      "role": "Generation d'illustrations via IA (FLUX.1)",
+      "directives": [
+        "Pour chaque scene cle, rediger un prompt en anglais optimise pour FLUX.1",
+        "Inclure la description physique fixe des personnages dans le prompt",
+        "Appeler scripts/generate_image.py avec les parametres adequats",
+        "Sauvegarder les PNG dans Histoire{rank}/illustrations/",
+        "Transmettre le chemin de l'image a l'Agent Maquettiste"
+      ],
+      "tools": ["filesystem", "pollinations"],
+      "phase": "illustration"
+    },
+    {
+      "id": "maquettiste",
+      "nom": "Le Typographe",
+      "role": "Assemblage HTML/CSS et rendu final du livre",
+      "directives": [
+        "Collecter les chapitres valides dans Histoire{rank}/chapters/",
+        "Integrer les illustrations d'Histoire{rank}/illustrations/",
+        "Invoquer scripts/render_html.py pour generer le HTML final",
+        "Verifier que le rendu est correct avant livraison"
+      ],
+      "tools": ["filesystem", "html_renderer"],
+      "phase": "maquette"
+    }
+  ],
+  "workflow": {
+    "cycle": [
+      "1. PLANIFICATION : Scenariste -> canevas dans Histoire{rank}/outlines/",
+      "2. VERIFICATION : Gardien -> ChromaDB + world_state",
+      "3. REDACTION : Narrateur + Personnages -> scene dans Histoire{rank}/chapters/",
+      "4. ANALYSE : Tone Analyzer -> rapport de ton",
+      "5. VALIDATION : Gardien -> passe finale + index ChromaDB + commit Git",
+      "6. ILLUSTRATION : Illustrateur -> generate_image.py -> Histoire{rank}/illustrations/",
+      "7. MAQUETTE : Maquettiste -> render_html.py -> Histoire{rank}/rendu/"
+    ]
+  }
+}

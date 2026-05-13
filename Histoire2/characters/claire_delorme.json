@@ -1,0 +1,18 @@
+{
+  "id": "claire_delorme",
+  "nom": "Claire Delorme",
+  "role": "protagonist",
+  "age": 37,
+  "profession": "Head of Product chez DataFusion",
+  "traits": {
+    "psychologiques": ["pragmatique", "sceptique", "burnout latent", "trop competente pour son propre bien"],
+    "tics_de_langage": ["Concretement...", "OK mais quel est le probleme qu'on resout ?", "Les gars...", "Fais voir les chiffres"],
+    "motivations": ["Proteger son equipe", "Faire un produit qui marche vraiment"],
+    "peurs": ["Devenir aussi inutile que les bullshiteurs qu'elle croise"]
+  },
+  "apparence": "Chemise blanche, jean, carnet papier toujours en main, AirPods un seul oreille, regard de quelqu'un qui en a vu d'autres",
+  "backstory": "10 ans de produit dans 4 boites differentes. A vu chaque CEO promettre la lune. Sait que l'IA est un outil, pas une solution miracle.",
+  "relations": {},
+  "derniere_apparition": null,
+  "notes": ["Sera licenciee puis re-embauchee", "Seule personne sensee de DataFusion"]
+}
