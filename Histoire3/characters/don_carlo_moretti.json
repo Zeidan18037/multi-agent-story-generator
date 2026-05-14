@@ -1,0 +1,21 @@
+{
+  "id": "don_carlo_moretti",
+  "nom": "Don Carlo Moretti",
+  "role": "antagonist",
+  "age": 67,
+  "profession": "Chef de la famille Moretti",
+  "traits": {
+    "psychologiques": ["charismatique", "imprévisible", "passionné par le management moderne", "a passé 5 ans en prison à lire des livres de business"],
+    "tics_de_langage": ["Moi je dis pas les choses, je les fais.", "La famille est une entreprise.", "Les chiffres, Antoine, les chiffres."],
+    "motivations": ["Légitimer la famille", "Devenir le premier Don à faire une introduction en bourse", "Laisser un héritage"],
+    "peurs": ["Passer pour un ringard", "Que son fils soit incapable de reprendre"]
+  },
+  "apparence": "Costume trois-pèces, bague en or, cheveux argentés impeccables, air d'un PDG du CAC40 qui aurait commis quelques meurtres",
+  "backstory": "A pris la tête de la famille en 1998. A passé 5 ans à la prison de Fleury-Mérogis où il a lu 150 livres de business (Good to Great, The Innovator's Dilemma, Seven Habits).",
+  "relations": {
+    "antoine_lambert": "son nouvel analyste fétiche",
+    "vito_bianchi": "capo de confiance depuis 30 ans"
+  },
+  "derniere_apparition": null,
+  "notes": ["A surnommé son fauteuil le 'trône de la transformation digitale'"]
+}

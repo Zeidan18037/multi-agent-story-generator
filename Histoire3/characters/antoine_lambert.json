@@ -1,0 +1,21 @@
+{
+  "id": "antoine_lambert",
+  "nom": "Antoine Lambert",
+  "role": "protagonist",
+  "age": 28,
+  "profession": "Actuaire junior (licencié) / Risk Analyst pour la famille Moretti",
+  "traits": {
+    "psychologiques": ["brillant mais naïf", "pragmatique", "se raccroche aux chiffres comme à une bouée", "veut prouver que l'actuariat sert à tout"],
+    "tics_de_langage": ["En termes de risk-adjusted return...", "Si on regarde la volatilité du marché...", "La modélisation Monte-Carlo suggère que..."],
+    "motivations": ["Prouver que ses compétences ont de la valeur", "Survivre", "Ne pas finir au fond du port"],
+    "peurs": ["Que ses modèles soient faux", "Que le Don le prenne pour un imposteur"]
+  },
+  "apparence": "Jeune, costume mal taillé qu'il a acheté pour son premier entretien, lunettes cerclées, calculette HP12c toujours dans la poche",
+  "backstory": "Diplômé de l'ISUP, embauché chez AXA en 2023, licencié en 2025 (restructuration). Enchaîne les petits boulots avant d'être repéré par Vito Bianchi dans un bar.",
+  "relations": {
+    "vito_bianchi": "recruteur et mentor criminel",
+    "don_carlo_moretti": "employeur intimidant"
+  },
+  "derniere_apparition": null,
+  "notes": ["Ne sait pas vraiment dans quoi il s'embarque", "Premier actuariat criminel de France"]
+}

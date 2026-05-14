@@ -1,0 +1,21 @@
+{
+  "id": "vito_bianchi",
+  "nom": "Vito Bianchi",
+  "role": "sidekick",
+  "age": 54,
+  "profession": "Capo de la famille Moretti",
+  "traits": {
+    "psychologiques": ["loyal", "pragmatique", "a un faible pour les jeunes diplômés perdus", "ne comprend rien aux slides"],
+    "tics_de_langage": ["Moi je dis ça, je dis rien.", "Le Don il a ses idées.", "Explique-moi comme si j'avais 5 ans."],
+    "motivations": ["Protéger Antoine", "Faire plaisir au Don", "Que tout ça ne parte pas en cacahuète"],
+    "peurs": ["Que les modèles remplacent l'intuition", "Passer pour un idiot devant le Don"]
+  },
+  "apparence": "Gabardine beige, chapeau, cigare éteint toujours au coin des lèvres, tête de gros bras qui lit les rapports en cachette",
+  "backstory": "Dans la famille depuis l'adolescence. A tout vu. A tout fait. Mais commence à trouver que le monde change trop vite.",
+  "relations": {
+    "antoine_lambert": "protégé",
+    "don_carlo_moretti": "ami d'enfance, serviteur fidèle"
+  },
+  "derniere_apparition": null,
+  "notes": ["Apprend Excel en secret le soir", "A surnommé Antoine 'le Professeur'"]
+}

@@ -1,0 +1,33 @@
+{
+  "titre": "Chief Risk Officer",
+  "thematique": "Mafia satire — un actuaire modernise le crime organisé avec des KPIs et des modèles de risque",
+  "ton": "sarcastique, cynique, mordant",
+  "contexte": {
+    "lieu_principal": "Marseille / New York — entrepôt désaffecté et tour de verre",
+    "epoque": "contemporain (2026)",
+    "ambiance": "Contraste entre les salles de réunion vitrées du cabinet de conseil et les sous-sols humides des entrepôts de la famille Moretti"
+  },
+  "personnages_actifs": ["Antoine Lambert", "Don Carlo Moretti", "Vito Bianchi", "FBI Agent Park"],
+  "intrigue": {
+    "acte": 1,
+    "chapitre_courant": 1,
+    "evenements_cles": [],
+    "paradoxe_social": "Le crime organisé adopte les mêmes outils de gestion que le CAC40 — et ça marche étonnamment bien."
+  },
+  "regles_internes": [
+    "Toute opération illégale doit avoir un ROI calculé",
+    "Un capo ne parle pas à un associé sans passer par la hiérarchie",
+    "Le Don a le dernier mot sur tout, y compris les modèles actuariels"
+  ],
+  "timeline": [],
+  "notes_univers": [
+    "La famille Moretti opère à Marseille et New York",
+    "Antoine est un pur produit des écoles d'actuariat françaises, licencié d'AXA",
+    "Le Don a lu The Innovator's Dilemma en prison et veut 'transformer' la famille"
+  ],
+  "rendu": {
+    "illustrations": false,
+    "html_genere": false,
+    "date_dernier_rendu": null
+  }
+}
