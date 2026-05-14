@@ -2,8 +2,9 @@ import os, sys, glob
 from playwright.sync_api import sync_playwright
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-html_path = os.path.join(BASE, "Histoire2", "rendu", "roman_2.html")
-pdf_path = os.path.join(BASE, "Histoire2", "rendu", "roman_2.pdf")
+rank = sys.argv[1] if len(sys.argv) > 1 else "2"
+html_path = os.path.join(BASE, f"Histoire{rank}", "rendu", f"roman_{rank}.html")
+pdf_path = os.path.join(BASE, f"Histoire{rank}", "rendu", f"roman_{rank}.pdf")
 
 if not os.path.exists(html_path):
     print(f"ERREUR: {html_path} introuvable")
